@@ -1,4 +1,4 @@
-FROM phusion/baseimage-docker
+FROM phusion/baseimage
 MAINTAINER frank@dspeed.eu
 #RUN echo deb http://archive.ubuntu.com/ubuntu trusty universe > /etc/apt/sources.list.d/universe.list
 RUN apt-get update -qq
