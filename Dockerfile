@@ -1,6 +1,6 @@
-FROM ubuntu
-MAINTAINER jerome.petazzoni@dotcloud.com
-RUN echo deb http://archive.ubuntu.com/ubuntu precise universe > /etc/apt/sources.list.d/universe.list
+FROM phusion/baseimage-docker
+MAINTAINER frank@dspeed.eu
+#RUN echo deb http://archive.ubuntu.com/ubuntu trusty universe > /etc/apt/sources.list.d/universe.list
 RUN apt-get update -qq
 RUN apt-get install -qqy iptables ca-certificates lxc
 # This will use the latest public release. To use your own, comment it out...
