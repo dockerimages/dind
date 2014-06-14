@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# First, make sure that docker is not executed already in that container and running well
+ps -aux | grep docker
+
 # First, make sure that cgroups are mounted correctly.
 CGROUP=/sys/fs/cgroup
 
