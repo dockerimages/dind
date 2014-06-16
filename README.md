@@ -8,6 +8,15 @@ There is only one requirement: your Docker version should support the
 `-privileged` flag.
 
 
+
+
+## This fork is made because we needed sshd in the image and so choosed to use our baseimage with own init+
+
+# TODO
+- Adding init Script for wrapdocker
+-  Maybe Adding a onbuild tigger for building docker containers based on 
+-  
+
 ## Quickstart
 
 Build the image:
